@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	min-height: 100vh;
+	background-color: #222;
+	color: white;
+	padding: 1rem;
+}
+
+.componente {
+	border: solid 1px crimson;
+	padding: 1rem;
+	margin: 1rem 0;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: sans-serif;
+	background: #222;
+	color: white;
+}
+
+.products-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.card {
+	padding: 1rem;
+	background: #333;
+	width: calc((100% - 3rem) / 4);
+}
+
+.card-image {
+	width: 100%;
+}
+
+a.nav-link {
+	color: aqua;
+	text-decoration: none;
+}
+
+a.nav-link:hover {
+	text-decoration: underline;
+}
+
+a.nav-link.active {
+	color: blueviolet;
+}
